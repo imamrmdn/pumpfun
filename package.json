@@ -33,6 +33,7 @@
     "@serwist/next": "^9.0.2",
     "@vercel/analytics": "latest",
     "@vercel/speed-insights": "latest",
+    "axios": "^1.7.9",
     "dayjs": "latest",
     "next": "latest",
     "react": "latest",
