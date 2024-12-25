@@ -10,7 +10,7 @@ export default async function App() {
   return (
     <Stack className="app" pt={7}>
       <Header />
-      <List data={data} />
+      <List />
       <Detail />
     </Stack>
   )
