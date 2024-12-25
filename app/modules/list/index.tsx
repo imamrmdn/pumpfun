@@ -17,8 +17,10 @@ export default function List() {
         const response = await axios.get(
           "https://gmgn.ai/defi/quotation/v1/rank/sol/pump?limit=50&orderby=progress&direction=desc&pump=true"
         );
-        console.log({ log: response?.data })
-        setData(response.data || []);
+        const t = await response.data;
+
+        console.log({ log: t })
+        setData(t || []);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
